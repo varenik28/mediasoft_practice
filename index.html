@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Alowishus Delicious</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="mobile-version.css" />
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <img class="logo" src="./images/favicon.png" alt="Alowishus Delicious" />
+      <div class="menu-burger">
+        <span></span>
+      </div>
+      <div class="menu">
+        <a href="#" class="menu-item">
+          <div>Cafe Menu</div>
+        </a>
+        <a href="#" class="menu-item">
+          <div>About Us</div>
+        </a>
+        <a href="#" class="menu-item">
+          <div>Find Us</div>
+        </a>
+        <a href="#" class="menu-item">
+          <div>Alowishus Catering</div>
+        </a>
+        <div class="actions">
+          <button class="cart" type="button" onclick="document.location='#'">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8.13201 2.50391L4.42001 8.99991H3.00001C2.68801 8.99991 2.39501 9.14591 2.20501 9.39291C2.01601 9.64091 1.95301 9.96291 2.03501 10.2629L4.83401 20.5259C5.07001 21.3939 5.86401 21.9999 6.76401 21.9999H17.237C18.135 21.9999 18.929 21.3949 19.167 20.5249L21.966 10.2619C22.048 9.96191 21.986 9.63991 21.796 9.39191C21.605 9.14591 21.312 8.99991 21 8.99991H19.58L15.868 2.50391L14.132 3.49591L17.277 8.99991H6.72301L9.86801 3.49591L8.13201 2.50391ZM14 12.9999H16V17.9999H14V12.9999ZM8.00001 12.9999H10V17.9999H8.00001V12.9999Z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+          <button
+            class="primary-button -buy-gift-vouchers-button"
+            type="button"
+            onclick="document.location='#'"
+          >
+            BUY GIFT VOUCHERS
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="welcome-page">
+        <div class="text-buttons">
+          <h1>Alowishus Delicious Coffee</h1>
+          <p class="welcome-page-description">
+            A drink from the ‘My Alowishus’ bottled brews range OR grab one of
+            our delicious coffee’s.
+          </p>
+          <div class="welcome-page-buttons">
+            <button
+              class="primary-button -download-app-button"
+              type="button"
+              onclick="document.location='#'"
+            >
+              DOWNLOAD APP
+            </button>
+            <div class="welcome-page-link">
+              <a class="links" href="#">SHOP COFFEE</a>
+            </div>
+          </div>
+        </div>
+        <div class="welcome-page-images">
+          <img
+            class="cafe-of-the-year"
+            src="./images/cafeoftheyear.png"
+            alt="cafe of the year"
+          />
+          <img class="cup" src="./images/cup.png" alt="cup" />
+          <img class="lines" src="./images/lines.svg" alt="lines" />
+          <div class="stars-block">
+            <div class="stars-row">
+              <img class="black-star" src="./images/star.svg" />
+              <img class="black-star" src="./images/star.svg" />
+              <img class="black-star" src="./images/star.svg" />
+              <img class="black-star" src="./images/star.svg" />
+              <img class="black-star" src="./images/star.svg" />
+            </div>
+            <div class="rating-description">
+              4.9 out of 5 Overall Star Rating for All Local Business.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="services">
+        <div class="services-page-text">
+          <h2>Explore Our Alowishus</h2>
+          <p class="welcome-page-description -services-desc">
+            A drink from the ‘My Alowishus’ bottled brews range OR grab one of
+            our delicious coffee’s.
+          </p>
+        </div>
+        <div class="services-cards">
+          <div class="services-block">
+            <div class="service-text">
+              <h4>Our Catering</h4>
+              <p class="services-block-description">
+                Alowishus Catering, delicious drop off Catering
+              </p>
+            </div>
+            <img class="services-images" src="./images/plate.svg" />
+            <button
+              class="primary-button -card-button"
+              type="button"
+              onclick="document.location='#'"
+            >
+              ORDER CATHERING
+            </button>
+          </div>
+          <div class="services-block">
+            <div class="service-text">
+              <h4>The Food</h4>
+              <p class="services-block-description">
+                Our entire menu is available as dine in or takeaway.
+              </p>
+            </div>
+            <img class="services-images" src="./images/burger.svg" />
+            <button
+              class="primary-button -card-button"
+              type="button"
+              onclick="document.location='#'"
+            >
+              FOOD MENU
+            </button>
+          </div>
+          <div class="services-block">
+            <div class="service-text">
+              <h4>The Gelato</h4>
+              <p class="services-block-description">
+                Life is like GELATO, enjoy it before it melts.
+              </p>
+            </div>
+            <img class="services-images" src="./images/ice-cream.svg" />
+            <button
+              class="primary-button -card-button"
+              type="button"
+              onclick="document.location='#'"
+            >
+              DISCOVER MORE
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="order-page">
+        <img class="cups" src="./images/cups.png" alt="cups" />
+        <div class="order-block">
+          <div class="order-text">
+            <h2>Order Your Favourite Coffee</h2>
+            <p class="order-description welcome-page-description">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+            <button
+              class="primary-button -order-button"
+              type="button"
+              onclick="document.location='#'"
+            >
+              ORDER NOW
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="feedback">
+        <div class="feedback-header">
+          <h2>What Our Customers Say</h2>
+          <div class="feedback-description">
+            <p class="feedback-number">4.9</p>
+            <div class="feedback-stars-block">
+              <div class="feedback-stars-row">
+                <img class="yellow-star" src="./images/yellow-star.svg" />
+                <img class="yellow-star" src="./images/yellow-star.svg" />
+                <img class="yellow-star" src="./images/yellow-star.svg" />
+                <img class="yellow-star" src="./images/yellow-star.svg" />
+                <img class="yellow-star" src="./images/yellow-star.svg" />
+              </div>
+              <div class="feedback-text">based on 2452+ reviews</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="feedback-gallery">
+          <button id="prev-button" class="arrow-button" type="button">
+            <svg
+              class="arrow"
+              width="31"
+              height="31"
+              viewBox="0 0 31 31"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M24.289 15.27H6.789"
+                stroke="currentColor"
+                stroke-width="3"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M15.539 6.52002L6.789 15.27L15.539 24.02"
+                stroke="currentColor"
+                stroke-width="3"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+          <div class="swiper swiper-width">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="feedback-lists">
+                  <div class="feedback-card">
+                    <img class="feedback-photo" src="./images/woman.png" />
+                    <div class="real-feedback">
+                      <div class="name-stars">
+                        <p class="name">Brooklyn Simmons</p>
+                        <div class="feedback-stars-block">
+                          <div class="feedback-stars-row">
+                            <img
+                              class="yellow-star-mobile"
+                              src="./images/yellow-star.svg"
+                            />
+                            <img
+                              class="yellow-star-mobile"
+                              src="./images/yellow-star.svg"
+                            />
+                            <img
+                              class="yellow-star-mobile"
+                              src="./images/yellow-star.svg"
+                            />
+                            <img
+                              class="yellow-star-mobile"
+                              src="./images/yellow-star.svg"
+                            />
+                            <img
+                              class="yellow-star-mobile"
+                              src="./images/yellow-star.svg"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <span class="review">
+                        “Amet minim mollit non deserunt ullamco est sit aliqua
+                        dolor do amet sint. Velit officia consequat duis enim
+                        velit mollit. Exercitation veniam consequat sunt nostrud
+                        amet. Amet minim mollit non deserunt ullamco est sit
+                        aliqua dolor do amet sint. Velit officia”
+                      </span>
+                    </div>
+                  </div>
+                  <div class="feedback-card">
+                    <img class="feedback-photo" src="./images/girl.png" />
+                    <div class="real-feedback">
+                      <div class="name-stars">
+                        <p class="name">Imam White</p>
+                        <div class="feedback-stars-block">
+                          <div class="feedback-stars-row">
+                            <img
+                              class="yellow-star-mobile"
+                              src="./images/yellow-star.svg"
+                            />
+                            <img
+                              class="yellow-star-mobile"
+                              src="./images/yellow-star.svg"
+                            />
+                            <img
+                              class="yellow-star-mobile"
+                              src="./images/yellow-star.svg"
+                            />
+                            <img
+                              class="yellow-star-mobile"
+                              src="./images/yellow-star.svg"
+                            />
+                            <img
+                              class="yellow-star-mobile"
+                              src="./images/yellow-star.svg"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <span class="review">
+                        “Amet minim mollit non deserunt ullamco est sit aliqua
+                        dolor do amet sint. Velit officia consequat duis enim
+                        velit mollit. Exercitation veniam consequat sunt nostrud
+                        amet. Amet minim mollit non deserunt ullamco est sit
+                        aliqua dolor do amet sint. Velit officia”
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="feedback-card-swiper">
+                  <img class="feedback-photo" src="./images/woman.png" />
+                  <div class="real-feedback">
+                    <div class="name-stars">
+                      <p class="name">Brooklyn Simmons</p>
+                      <div class="feedback-stars-block">
+                        <div class="feedback-stars-row">
+                          <img
+                            class="yellow-star-mobile"
+                            src="./images/yellow-star.svg"
+                          />
+                          <img
+                            class="yellow-star-mobile"
+                            src="./images/yellow-star.svg"
+                          />
+                          <img
+                            class="yellow-star-mobile"
+                            src="./images/yellow-star.svg"
+                          />
+                          <img
+                            class="yellow-star-mobile"
+                            src="./images/yellow-star.svg"
+                          />
+                          <img
+                            class="yellow-star-mobile"
+                            src="./images/yellow-star.svg"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <span class="review">
+                      “Amet minim mollit non deserunt ullamco est sit aliqua
+                      dolor do amet sint. Velit officia consequat duis enim
+                      velit mollit. Exercitation veniam consequat sunt nostrud
+                      amet. Amet minim mollit non deserunt ullamco est sit
+                      aliqua dolor do amet sint. Velit officia”
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="feedback-lists">
+                  <div class="feedback-card">
+                    <img class="feedback-photo" src="./images/woman.png" />
+                    <div class="real-feedback">
+                      <div class="name-stars">
+                        <p class="name">Brooklyn Simmons</p>
+                        <div class="feedback-stars-block">
+                          <div class="feedback-stars-row">
+                            <img
+                              class="yellow-star-mobile"
+                              src="./images/yellow-star.svg"
+                            />
+                            <img
+                              class="yellow-star-mobile"
+                              src="./images/yellow-star.svg"
+                            />
+                            <img
+                              class="yellow-star-mobile"
+                              src="./images/yellow-star.svg"
+                            />
+                            <img
+                              class="yellow-star-mobile"
+                              src="./images/yellow-star.svg"
+                            />
+                            <img
+                              class="yellow-star-mobile"
+                              src="./images/yellow-star.svg"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <span class="review">
+                        “Amet minim mollit non deserunt ullamco est sit aliqua
+                        dolor do amet sint. Velit officia consequat duis enim
+                        velit mollit. Exercitation veniam consequat sunt nostrud
+                        amet. Amet minim mollit non deserunt ullamco est sit
+                        aliqua dolor do amet sint. Velit officia”
+                      </span>
+                    </div>
+                  </div>
+                  <div class="feedback-card">
+                    <img class="feedback-photo" src="./images/girl.png" />
+                    <div class="real-feedback">
+                      <div class="name-stars">
+                        <p class="name">Imam White</p>
+                        <div class="feedback-stars-block">
+                          <div class="feedback-stars-row">
+                            <img
+                              class="yellow-star-mobile"
+                              src="./images/yellow-star.svg"
+                            />
+                            <img
+                              class="yellow-star-mobile"
+                              src="./images/yellow-star.svg"
+                            />
+                            <img
+                              class="yellow-star-mobile"
+                              src="./images/yellow-star.svg"
+                            />
+                            <img
+                              class="yellow-star-mobile"
+                              src="./images/yellow-star.svg"
+                            />
+                            <img
+                              class="yellow-star-mobile"
+                              src="./images/yellow-star.svg"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <span class="review">
+                        “Amet minim mollit non deserunt ullamco est sit aliqua
+                        dolor do amet sint. Velit officia consequat duis enim
+                        velit mollit. Exercitation veniam consequat sunt nostrud
+                        amet. Amet minim mollit non deserunt ullamco est sit
+                        aliqua dolor do amet sint. Velit officia”
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="feedback-card-swiper">
+                  <img class="feedback-photo" src="./images/girl.png" />
+                  <div class="real-feedback">
+                    <div class="name-stars">
+                      <p class="name">Imam White</p>
+                      <div class="feedback-stars-block">
+                        <div class="feedback-stars-row">
+                          <img
+                            class="yellow-star-mobile"
+                            src="./images/yellow-star.svg"
+                          />
+                          <img
+                            class="yellow-star-mobile"
+                            src="./images/yellow-star.svg"
+                          />
+                          <img
+                            class="yellow-star-mobile"
+                            src="./images/yellow-star.svg"
+                          />
+                          <img
+                            class="yellow-star-mobile"
+                            src="./images/yellow-star.svg"
+                          />
+                          <img
+                            class="yellow-star-mobile"
+                            src="./images/yellow-star.svg"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <span class="review">
+                      “Amet minim mollit non deserunt ullamco est sit aliqua
+                      dolor do amet sint. Velit officia consequat duis enim
+                      velit mollit. Exercitation veniam consequat sunt nostrud
+                      amet. Amet minim mollit non deserunt ullamco est sit
+                      aliqua dolor do amet sint. Velit officia”
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button id="next-button" class="arrow-button" type="button">
+            <svg
+              width="31"
+              height="31"
+              viewBox="0 0 31 31"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.71094 15.27H24.2109"
+                stroke="currentColor"
+                stroke-width="3"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M15.4609 6.52002L24.2109 15.27L15.4609 24.02"
+                stroke="currentColor"
+                stroke-width="3"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="end-page">
+        <div class="end-page-desc_contacts">
+          <div class="end-description">
+            <img class="end-page-logo" src="./images/favicon.png" />
+            <p class="end-page-text">
+              We made it our mission to create community everyday and grow
+              meaningful, lasting relationships with our staff, our suppliers
+              and of course you, our customers.
+            </p>
+          </div>
+          <div class="end-page-contacts">
+            <h3>Contact Alowishus!</h3>
+            <div class="contacts">
+              <div class="email">
+                <button
+                  class="contacts-button"
+                  type="button"
+                  onclick="document.location='#'"
+                >
+                  <svg
+                    width="29"
+                    height="29"
+                    viewBox="0 0 29 29"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="email" clip-path="url(#clip0_1_292)">
+                      <g id="Group">
+                        <g id="Group_2">
+                          <path
+                            id="Vector"
+                            d="M18.9001 15.4279L16.5551 17.7808C15.6041 18.7351 13.9309 18.7557 12.9594 17.7808L10.6142 15.4279L2.19144 23.8779C2.50496 24.0229 2.85064 24.1094 3.21814 24.1094H26.2963C26.6638 24.1094 27.0093 24.023 27.3228 23.878L18.9001 15.4279Z"
+                            fill="currentColor"
+                          />
+                        </g>
+                      </g>
+                      <g id="Group_3">
+                        <g id="Group_4">
+                          <path
+                            id="Vector_2"
+                            d="M26.2963 4.42194H3.21814C2.85064 4.42194 2.50496 4.50845 2.19154 4.65343L11.1918 13.6836C11.1924 13.6842 11.1932 13.6843 11.1938 13.6849C11.1944 13.6855 11.1945 13.6863 11.1945 13.6863L14.121 16.6225C14.4318 16.9333 15.0827 16.9333 15.3935 16.6225L18.3194 13.6868C18.3194 13.6868 18.3201 13.6855 18.3207 13.6849C18.3207 13.6849 18.3221 13.6842 18.3227 13.6836L27.3227 4.65337C27.0093 4.50834 26.6638 4.42194 26.2963 4.42194Z"
+                            fill="currentColor"
+                          />
+                        </g>
+                      </g>
+                      <g id="Group_5">
+                        <g id="Group_6">
+                          <path
+                            id="Vector_3"
+                            d="M1.01894 5.80072C0.856733 6.12874 0.757202 6.49285 0.757202 6.88288V21.6485C0.757202 22.0385 0.856624 22.4026 1.01888 22.7307L9.45623 14.266L1.01894 5.80072Z"
+                            fill="currentColor"
+                          />
+                        </g>
+                      </g>
+                      <g id="Group_7">
+                        <g id="Group_8">
+                          <path
+                            id="Vector_4"
+                            d="M28.4955 5.8006L20.0582 14.266L28.4955 22.7308C28.6577 22.4027 28.7572 22.0386 28.7572 21.6485V6.88286C28.7572 6.49272 28.6577 6.12861 28.4955 5.8006Z"
+                            fill="currentColor"
+                          />
+                        </g>
+                      </g>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1_292">
+                        <rect
+                          width="28"
+                          height="28"
+                          fill="currentColor"
+                          transform="translate(0.757202 0.265686)"
+                        />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </button>
+                <p class="contacts-text">alowishus@gmail.com</p>
+              </div>
+              <div class="phone-number">
+                <button
+                  class="contacts-button"
+                  type="button"
+                  onclick="document.location='#'"
+                >
+                  <svg
+                    width="31"
+                    height="31"
+                    viewBox="0 0 31 31"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="phone">
+                      <path
+                        id="Vector"
+                        d="M23.4655 18.2403C22.6258 18.0597 21.9616 18.4496 21.3735 18.7901C20.7711 19.1408 19.6258 20.0699 18.9693 19.8322C15.6082 18.4483 12.4471 15.5064 11.0786 12.1318C10.8375 11.4613 11.7622 10.3088 12.1104 9.69933C12.4484 9.1094 12.8301 8.4389 12.656 7.59298C12.4987 6.83282 10.4634 4.2431 9.74374 3.53492C9.2691 3.06713 8.78286 2.80985 8.28374 2.76826C6.40714 2.6877 4.31129 5.19167 3.94371 5.7907C3.02283 7.06802 3.02799 8.76766 3.95919 10.8285C6.20336 16.3641 14.6912 24.7179 20.2475 27.0464C21.2728 27.5259 22.2104 27.7663 23.0527 27.7663C23.8768 27.7663 24.6107 27.5363 25.2415 27.0803C25.7173 26.8061 28.324 24.6062 28.2556 22.6792C28.2143 22.1879 27.9577 21.6968 27.496 21.2212C26.793 20.4948 24.22 18.3989 23.4655 18.2403Z"
+                        fill="currentColor"
+                      />
+                    </g>
+                  </svg>
+                </button>
+                <p class="contacts-text">+110 214 214 2451</p>
+              </div>
+              <div class="social-networks">
+                <button
+                  class="contacts-button"
+                  type="button"
+                  onclick="document.location='https://facebook.com/'"
+                >
+                  <svg
+                    width="31"
+                    height="31"
+                    viewBox="0 0 31 31"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="facebook">
+                      <path
+                        id="Vector"
+                        d="M17.5034 26.5119V16.2669H20.9597L21.4734 12.2557H17.5034V9.70069C17.5034 8.54319 17.8259 7.75069 19.4872 7.75069H21.5922V4.17444C20.5684 4.06444 19.5384 4.01194 18.5084 4.01569C15.4534 4.01569 13.3559 5.88069 13.3559 9.30444V12.2482H9.9222V16.2594H13.3634V26.5119H17.5034Z"
+                        fill="currentColor"
+                      />
+                    </g>
+                  </svg>
+                </button>
+                <button
+                  class="contacts-button"
+                  type="button"
+                  onclick="document.location='https://instagram.com/'"
+                >
+                  <svg
+                    width="31"
+                    height="31"
+                    viewBox="0 0 31 31"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="instagram">
+                      <path
+                        id="Vector"
+                        d="M26.9409 10.6469C26.9272 9.70069 26.7522 8.76194 26.4172 7.87694C25.8309 6.36569 24.6372 5.17069 23.1259 4.58569C22.2522 4.25694 21.3284 4.08069 20.3934 4.06069C19.1909 4.00694 18.8097 3.99194 15.7572 3.99194C12.7047 3.99194 12.3134 3.99194 11.1197 4.06069C10.1859 4.08069 9.2622 4.25694 8.38845 4.58569C6.8772 5.17069 5.6822 6.36569 5.0972 7.87694C4.76845 8.75069 4.59095 9.67444 4.57345 10.6082C4.5197 11.8119 4.50345 12.1932 4.50345 15.2457C4.50345 18.2982 4.50345 18.6882 4.57345 19.8832C4.5922 20.8182 4.76845 21.7407 5.0972 22.6169C5.68345 24.1269 6.8772 25.3219 8.3897 25.9069C9.2597 26.2469 10.1834 26.4394 11.1209 26.4694C12.3247 26.5232 12.7059 26.5394 15.7584 26.5394C18.8109 26.5394 19.2022 26.5394 20.3959 26.4694C21.3297 26.4507 22.2534 26.2744 23.1284 25.9457C24.6397 25.3594 25.8335 24.1644 26.4197 22.6544C26.7484 21.7794 26.9247 20.8569 26.9434 19.9207C26.9972 18.7182 27.0134 18.3369 27.0134 15.2832C27.0109 12.2307 27.011 11.8432 26.9409 10.6469ZM15.7497 21.0182C12.5572 21.0182 9.97095 18.4319 9.97095 15.2394C9.97095 12.0469 12.5572 9.46069 15.7497 9.46069C18.9397 9.46069 21.5285 12.0469 21.5285 15.2394C21.5285 18.4319 18.9397 21.0182 15.7497 21.0182ZM21.7584 10.5944C21.0122 10.5944 20.4109 9.99194 20.4109 9.24694C20.4109 8.50194 21.0122 7.89944 21.7584 7.89944C22.5022 7.89944 23.1047 8.50194 23.1047 9.24694C23.1047 9.99194 22.5022 10.5944 21.7584 10.5944Z"
+                        fill="currentColor"
+                      />
+                      <path
+                        id="Vector_2"
+                        d="M15.7497 18.9932C17.8228 18.9932 19.5034 17.3125 19.5034 15.2394C19.5034 13.1663 17.8228 11.4857 15.7497 11.4857C13.6766 11.4857 11.9959 13.1663 11.9959 15.2394C11.9959 17.3125 13.6766 18.9932 15.7497 18.9932Z"
+                        fill="currentColor"
+                      />
+                    </g>
+                  </svg>
+                </button>
+                <button
+                  class="contacts-button"
+                  type="button"
+                  onclick="document.location='https://twitter.com/'"
+                >
+                  <svg
+                    width="31"
+                    height="31"
+                    viewBox="0 0 31 31"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="twitter">
+                      <path
+                        id="Vector"
+                        d="M25.2985 10.2619C25.3147 10.4807 25.3147 10.6982 25.3147 10.9157C25.3147 17.5719 20.2485 25.2419 10.9897 25.2419C8.1372 25.2419 5.4872 24.4157 3.2572 22.9807C3.6622 23.0269 4.0522 23.0432 4.47345 23.0432C6.8272 23.0432 8.99345 22.2482 10.7247 20.8919C8.51095 20.8457 6.65595 19.3957 6.01595 17.4007C6.3272 17.4469 6.6397 17.4782 6.9672 17.4782C7.41845 17.4782 7.8722 17.4157 8.29345 17.3069C5.9847 16.8394 4.25595 14.8132 4.25595 12.3657V12.3032C4.9272 12.6769 5.70595 12.9107 6.53095 12.9419C5.1747 12.0394 4.28595 10.4957 4.28595 8.74943C4.28595 7.81443 4.5347 6.95693 4.97095 6.20943C7.4497 9.26318 11.176 11.2594 15.3535 11.4782C15.276 11.1032 15.2285 10.7144 15.2285 10.3244C15.2285 7.54943 17.4735 5.28943 20.2635 5.28943C21.7135 5.28943 23.0222 5.89693 23.9422 6.87943C25.0797 6.66068 26.1697 6.23943 27.1372 5.66318C26.7635 6.83193 25.9672 7.81443 24.9235 8.43818C25.9372 8.32818 26.9197 8.04818 27.8222 7.65818C27.1372 8.65568 26.281 9.54443 25.2985 10.2619Z"
+                        fill="currentColor"
+                      />
+                    </g>
+                  </svg>
+                </button>
+                <button
+                  class="contacts-button"
+                  type="button"
+                  onclick="document.location='https://www.linkedin.com/'"
+                >
+                  <svg
+                    width="31"
+                    height="31"
+                    viewBox="0 0 31 31"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="linkedin">
+                      <path
+                        id="Vector"
+                        d="M6.98595 9.26193C8.49644 9.26193 9.72095 8.03743 9.72095 6.52693C9.72095 5.01643 8.49644 3.79193 6.98595 3.79193C5.47545 3.79193 4.25095 5.01643 4.25095 6.52693C4.25095 8.03743 5.47545 9.26193 6.98595 9.26193Z"
+                        fill="currentColor"
+                      />
+                      <path
+                        id="Vector_2"
+                        d="M12.3034 11.3344V26.5082H17.0147V19.0044C17.0147 17.0244 17.3872 15.1069 19.8422 15.1069C22.2634 15.1069 22.2934 17.3707 22.2934 19.1294V26.5094H27.0072V18.1882C27.0072 14.1007 26.1272 10.9594 21.3497 10.9594C19.0559 10.9594 17.5184 12.2182 16.8897 13.4094H16.8259V11.3344H12.3034ZM4.62595 11.3344H9.3447V26.5082H4.62595V11.3344Z"
+                        fill="currentColor"
+                      />
+                    </g>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="end-page-locat-email">
+          <div class="end-page-location">
+            <h3>Store Locations</h3>
+            <p class="end-page-text">
+              Find your nearest Alowishus store with opening hours, location and
+              contact details.
+            </p>
+            <div class="location-link-arrow">
+              <a class="location-link" href="#">FIND MY ALOWISHUS</a>
+              <svg
+                class="arrow-end"
+                width="31"
+                height="31"
+                viewBox="0 0 31 31"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6.35663 15.1772H23.8566"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M15.1066 6.42725L23.8566 15.1772L15.1066 23.9272"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="end-page-email">
+            <h3>First One’s On Us!</h3>
+            <form class="form">
+              <input
+                class="form-box"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+              />
+              <input
+                type="submit"
+                value="SUBSCRIBE"
+                class="primary-button subscribe-button"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-block">
+        <div class="footer-links">
+          Copytright © 2022
+          <span class="footer-links -copyright-text">Alowishus Delicious</span>
+        </div>
+        <div class="terms-privacy">
+          <a class="footer-links footer-hover" href="#">Terms of Use</a>
+          <p class="footer-links">|</p>
+          <a class="footer-links footer-hover" href="#">Privacy Policy</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
